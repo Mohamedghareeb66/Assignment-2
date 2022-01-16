@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>New Student</title>
+    </head>
+    <body>
+        <!--nav-->
+        <a href="index.html" target="_blank">home page</a>&nbsp;&mdash;&nbsp;
+        <a href="studentlist.html" target="_blank">student list</a>&nbsp;&mdash;&nbsp;
+        <a href="newstudent.html" target="_blank"> New stuednt</a>
+        <!--#nav-->
+        <section>
+            <h1>New Student</h1>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p>
+                    <label>
+                        Full Name:
+                        <input type="text" name="txtfullname" required="">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Birthday:
+                        <input type="date" name="txtBirthDate">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Gender: 
+                            <input type="radio" name="gender" value="male">
+                            Male
+                             <input type="radio" name="gender" value="female">
+                            Female
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>
+                    <legend>
+                        Email:
+                        <input type="email" name="txtEmail" >
+                    </legend>
+                </p>
+                <p>
+                    <legend>
+                        Phone Number:
+                        <input type="tel" name="txtPhone" >
+                    </legend>
+                </p>
+                <p>
+                    <legend>
+                        Address:
+                        <textarea
+                         rows="5" cols="100" name="txtAddress">
+                        </textarea>
+                    </legend>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Faculty university</legend>
+                <p>
+                    <legend>
+                        Choose Your Faculty:
+                        <select name="Faculty">
+                            
+                            <option value="f1">Faculty 1</option>
+                            <option value="f2">Faculty 2</option>
+                        </select>
+                    </legend>
+                </p>
+               
+            </fieldset>
+           <legend>
+                <input type="submit" class="buttom"  value="Add" value="add">
+            </legend>
+        </section>
+    </body>
+</html>
